@@ -8,7 +8,7 @@
 		<version>2.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>coachMe.com.example</groupId>
+	<groupId>coachMe.com</groupId>
 	<artifactId>CoachMe</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>CoachMe</name>
@@ -48,6 +48,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>5.3.4</version>
 		</dependency>
 	</dependencies>
 
