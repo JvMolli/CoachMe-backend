@@ -2,6 +2,7 @@ package coachMe.com.CoachMe.model.User
 
 import coachMe.com.CoachMe.Utilities.UserTypes
 import java.sql.Date
+import java.time.LocalDate
 import javax.persistence.*
 
 @Entity
