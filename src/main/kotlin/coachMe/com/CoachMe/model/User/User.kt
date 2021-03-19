@@ -14,7 +14,7 @@ data class User(@Column(nullable = false) val name:String = "",
                 @Column(nullable = false) val birthDate: Date = Date(0),
                 @Column(nullable = false) val type: Enum<UserTypes> = UserTypes.CLIENT,
                 @Column(nullable = false) val weight: Double? = null,
-                @Column(nullable = false) val height: Integer? = null,
+                @Column(nullable = false) val height: Int? = null,
                 @Column(nullable = false)val profilePictures: String = "/rutaquesea",
                 @Column(nullable = false, unique = true) val email: String = "",
                 @Column(nullable = false) val password: String = "") {
